@@ -1,0 +1,440 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 1000px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(225, 47, 47);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100%;
+    width: 50%;
+}
+.logo >i{
+    font-size: 80px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+.searchbar{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid orange; */
+}
+.searchbar >label{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar > label >input{
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px;
+}
+.searchbar > label >input:hover{
+    border: 1px snow black;
+}
+.searchbar > label >button{
+    height: 30px;
+    border: none;
+    border-radius: 9px;
+    width: 50px;
+    color:yellow;
+    background-color: blue; 
+}
+.searchbar >label > button:hover{
+    background: green;
+    color: black;
+}
+.nightout{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nightout  > button >i{
+    font-size:45px;
+    background: #e63232;
+    color: white;
+}
+.nightout >button {
+    border: none;
+}
+.nightout >button > i:hover{
+    color: black;
+    background: #e63232;
+}
+/* .nightout >button:active{
+    *{
+        background-color: black;
+    }
+} */
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    /* background-color: rgb(225, 47, 47); */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 15px;
+}
+.navbar >ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar >ul >li {
+    list-style-type: none;
+}
+.navbar > ul >li >a{
+    text-decoration: none;
+    border: 0px 2px 0px 0px ;
+    padding: 15px;
+    display: inline-block;
+}
+.navbar > ul >li >a:hover{
+    background-color: orange;
+    border-radius: 25px;
+    color: black;
+}
+.service {
+    position: absolute;
+    color: blue;
+    display: none;
+   
+}
+.service >li{
+    list-style-type: none;
+    padding: 15px;
+    height: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(42, 22, 22);
+    border-radius: 25px;
+    width: 50%;
+    display: inline-block;
+}
+.navbar >ul >li:hover .service{
+    display: block;
+    
+}
+ .service >li:hover{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+}
+.Skills {
+    position: absolute;
+    color: blue;
+    display: none;
+}
+.Skills >li{
+    list-style-type: none;
+    padding: 15px;
+    height: 50%;
+    color: rgb(253, 249, 249);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(42, 22, 22);
+    border-radius: 25px;
+    width: 50%;
+    display: inline-block;
+}
+.navbar >ul >li:hover .Skills{
+    display: block;
+}
+ .Skills >li:hover{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+.contact {
+    position: absolute;
+    color: blue;
+    display: none;
+}
+.contact >li{
+    list-style-type: none;
+    padding: 15px;
+    height: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(42, 22, 22);
+    border-radius: 25px;
+    width: 50%;
+    display: inline-block;
+}
+.navbar >ul >li:hover .contact{
+    display: block;
+}
+ .contact >li:hover{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+.main{
+    height: 350px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    background-color: red;
+    color: white;
+}
+.add{
+    height: 90%;
+    width: 40%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.add > i{
+    font-size: 110px;
+    color: white;
+}
+.add >h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    justify-content;
+}
+.sitemap1{
+    height: 50%;
+    width: 20%;
+    padding: 15px;
+}
+.sitemap1 > ul >li{
+    list-style-type: none;
+}
+.sitemap1 > h3{
+    font-size: 30px;
+}
+.sitemap1 > ul{
+    padding: 15px;;
+}
+
+.sitemap1 >ul >li:hover{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.sitemap2{
+    height: 50%;
+    width: 20%;
+    padding: 15px;
+}
+.sitemap2 > ul >li{
+    list-style-type: none;
+}
+.sitemap2 > h3{
+    font-size: 30px;
+}
+.sitemap2 > ul{
+    padding: 15px;;
+}
+
+.sitemap2 >ul >li:hover{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.sitemap3{
+    height: 50%;
+    width: 20%;
+    padding: 15px;
+}
+.sitemap3 > ul >li{
+    list-style-type: none;
+}
+.sitemap3 > h3{
+    font-size: 30px;
+}
+.sitemap3 > ul{
+    padding: 15px;;
+}
+
+.sitemap3 >ul >li:hover{
+    background-color: orange;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.card{
+    height: 3500px;
+    width: 100%;
+    border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Inner-card{
+    height: 20%;
+    width: 100%;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Inner-card > h2{
+    font-size: 40px;
+    padding: 15px;
+}
+.Inner-card >img{
+    width: 50%;
+    height: 65%;
+    padding: 15px;
+}
+.Inner-card >a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.inner-card2{
+    height: 20%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card2 > h2{
+    font-size: 40px;
+    padding: 15px;
+}
+.inner-card2 >img{
+    width: 50%;
+    height: 65%;
+    padding: 15px;
+}
+.inner-card2 >a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.inner-card3{
+    height: 20%;
+    width: 100%;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card3 > h2{
+    font-size: 40px;
+    padding: 15px;
+}
+.inner-card3 >img{
+    width: 40%;
+    height: 65%;
+    padding: 15px;
+}
+.inner-card3 >a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.inner-card4{
+    height: 20%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card4 > h2{
+    font-size: 40px;
+    padding: 15px;
+}
+.inner-card4 >img{
+    width: 50%;
+    height: 65%;
+    padding: 15px;
+}
+.inner-card4 >a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.inner-card5{
+    height: 20%;
+    width: 100%;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card5 > h2{
+    font-size: 40px;
+    padding: 15px;
+}
+.inner-card5 >img{
+    width: 50%;
+    height: 65%;
+    padding: 15px;
+}
+.inner-card5 >a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 30, 30);
+    color: white;
+    
+ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about >h2{
+    font-size: 40px;
+    padding: 25px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
